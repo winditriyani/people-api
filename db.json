@@ -1,0 +1,260 @@
+{
+  "subjects": [
+    {
+      "id": 1,
+      "name": "math"
+    },
+    {
+      "id": 2,
+      "name": "reading"
+    },
+    {
+      "id": 3,
+      "name": "english"
+    },
+    {
+      "id": 4,
+      "name": "science"
+    },
+    {
+      "id": 5,
+      "name": "social studies"
+    }
+  ],
+  "exams": [
+    {
+      "id": 2,
+      "name": "fractions",
+      "subjectId": 1
+    },
+    {
+      "id": 3,
+      "name": "word problems",
+      "subjectId": 1
+    },
+    {
+      "id": 4,
+      "name": "time for andrew exam",
+      "subjectId": 2
+    },
+    {
+      "id": 5,
+      "name": "redwall exam",
+      "subjectId": 2
+    },
+    {
+      "id": 6,
+      "name": "parts of speech",
+      "subjectId": 3
+    },
+    {
+      "id": 7,
+      "name": "short story",
+      "subjectId": 3
+    },
+    {
+      "id": 8,
+      "name": "the scientific method",
+      "subjectId": 4
+    },
+    {
+      "id": 9,
+      "name": "branches of federal government",
+      "subjectId": 5
+    },
+    {
+      "id": 10,
+      "name": "federal elections",
+      "subjectId": 5
+    },
+    {
+      "name": "fractions",
+      "id": 11
+    },
+    {
+      "name": "windi",
+      "id": 12
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "firstName": "Dorthy",
+      "lastName": "Runolfsdottir"
+    },
+    {
+      "id": 2,
+      "firstName": "Emmy",
+      "lastName": "Schaden"
+    },
+    {
+      "id": 3,
+      "firstName": "Lenora",
+      "lastName": "Senger"
+    }
+  ],
+  "scores": [
+    {
+      "id": 4,
+      "examId": 2,
+      "studentId": 1,
+      "score": 65
+    },
+    {
+      "id": 5,
+      "examId": 2,
+      "studentId": 2,
+      "score": 78
+    },
+    {
+      "id": 6,
+      "examId": 2,
+      "studentId": 3,
+      "score": 72
+    },
+    {
+      "id": 7,
+      "examId": 3,
+      "studentId": 1,
+      "score": 82
+    },
+    {
+      "id": 8,
+      "examId": 3,
+      "studentId": 2,
+      "score": 80
+    },
+    {
+      "id": 9,
+      "examId": 3,
+      "studentId": 3,
+      "score": 97
+    },
+    {
+      "id": 10,
+      "examId": 4,
+      "studentId": 1,
+      "score": 87
+    },
+    {
+      "id": 11,
+      "examId": 4,
+      "studentId": 2,
+      "score": 99
+    },
+    {
+      "id": 12,
+      "examId": 4,
+      "studentId": 3,
+      "score": 89
+    },
+    {
+      "id": 13,
+      "examId": 5,
+      "studentId": 1,
+      "score": 84
+    },
+    {
+      "id": 14,
+      "examId": 5,
+      "studentId": 2,
+      "score": 97
+    },
+    {
+      "id": 15,
+      "examId": 5,
+      "studentId": 3,
+      "score": 82
+    },
+    {
+      "id": 16,
+      "examId": 6,
+      "studentId": 1,
+      "score": 93
+    },
+    {
+      "id": 17,
+      "examId": 6,
+      "studentId": 2,
+      "score": 99
+    },
+    {
+      "id": 18,
+      "examId": 6,
+      "studentId": 3,
+      "score": 99
+    },
+    {
+      "id": 19,
+      "examId": 7,
+      "studentId": 1,
+      "score": 85
+    },
+    {
+      "id": 20,
+      "examId": 7,
+      "studentId": 2,
+      "score": 70
+    },
+    {
+      "id": 21,
+      "examId": 7,
+      "studentId": 3,
+      "score": 61
+    },
+    {
+      "id": 22,
+      "examId": 8,
+      "studentId": 1,
+      "score": 63
+    },
+    {
+      "id": 23,
+      "examId": 8,
+      "studentId": 2,
+      "score": 92
+    },
+    {
+      "id": 24,
+      "examId": 8,
+      "studentId": 3,
+      "score": 99
+    },
+    {
+      "id": 25,
+      "examId": 9,
+      "studentId": 1,
+      "score": 90
+    },
+    {
+      "id": 26,
+      "examId": 9,
+      "studentId": 2,
+      "score": 93
+    },
+    {
+      "id": 27,
+      "examId": 9,
+      "studentId": 3,
+      "score": 63
+    },
+    {
+      "id": 28,
+      "examId": 10,
+      "studentId": 1,
+      "score": 95
+    },
+    {
+      "id": 29,
+      "examId": 10,
+      "studentId": 2,
+      "score": 100
+    },
+    {
+      "id": 30,
+      "examId": 10,
+      "studentId": 3,
+      "score": 99
+    }
+  ]
+}

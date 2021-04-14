@@ -1,0 +1,3 @@
+{
+    "/employees\\?id=:id": "/employees/?id=:id"
+  }
