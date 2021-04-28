@@ -26,6 +26,19 @@ const checkScores = () => {
   });
 };
 
+
+const basicAuth = (req,res,next) => {
+  res.header('X-Hello', 'World')
+if(!req.headers.authorization || req.headers.authorization.indexOf('Basic ') === -1)
+{
+  return res.status(401).json({message:'need auth'})
+}
+
+
+next();
+}
+
+
 router.render = (req, res) => {
   checkScores();
   res.jsonp(res.locals.data);
@@ -34,6 +47,8 @@ router.render = (req, res) => {
 // Add custom middleware before JSON Server router
 server.use(middlewares);
 server.use(scoresCloner);
+
+server.use(basicAuth);
 server.use(router);
 server.listen(3000, () => {
   console.log("JSON Server is running");
